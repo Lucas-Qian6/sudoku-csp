@@ -36,4 +36,7 @@ python3 sudoku.py <input_string>
 ```
 
 Where <input_string> is an 81-character string representing the Sudoku board
-(row by row, left to right), using 0 for empty cells, e.g.: 003020600900305001001806400008102900700000008006708200002609500800203009005010300
+(row by row, left to right), using 0 for empty cells, e.g.: 
+
+```bash
+003020600900305001001806400008102900700000008006708200002609500800203009005010300
