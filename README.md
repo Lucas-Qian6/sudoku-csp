@@ -16,7 +16,7 @@ The solver uses a **backtracking search** enhanced with:
 - **Forward checking** to prune inconsistent values early  
 - A simple value-ordering strategy for trying digits `1–9`
 
-This code is adapted from a course homework environment, but this repository contains **only my own implementation of the core CSP solver logic**, not the original starter framework.
+This code is adapted from a course homework environment.
 
 ---
 
@@ -27,13 +27,13 @@ This code is adapted from a course homework environment, but this repository con
 - `sudokus_finish.txt` – example solved puzzles (for reference/testing)  
 - `sudoku_tester.py` – simple tester script (if used)  
 
-You can trim or adjust this section depending on what you actually commit.
-
 ---
 
-## Installation
-
-This project only requires Python 3.
+## Usage
 
 ```bash
-python3 --version
+python3 sudoku.py <input_string>
+```
+
+Where <input_string> is an 81-character string representing the Sudoku board
+(row by row, left to right), using 0 for empty cells, e.g.: 003020600900305001001806400008102900700000008006708200002609500800203009005010300
